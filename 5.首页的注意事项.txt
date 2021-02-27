@@ -1,0 +1,6 @@
+1.sass布局
+2.首页数据渲染 - 挑2块数据量比较大的进行渲染
+3.渲染的图片需要添加懒加载效果 - 渲染的数据，静态数据不需要。
+4.网页效果
+	- https://www.jq22.com/        jquery插件库
+	- https://www.lanrenzhijia.com/  懒人之家

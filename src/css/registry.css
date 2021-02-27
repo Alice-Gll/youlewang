@@ -1,0 +1,110 @@
+.main {
+    height: 550px;
+    width: 100%;
+    background: #f7f7f7;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.main .register_box {
+    background: white;
+    padding: 20px 0;
+    font-family: Microsoft YaHei;
+    width: 950px;
+    height: 530px;
+    margin: 0 auto;
+}
+
+.reg-title {
+    border-bottom: 1px solid #f0f0f0;
+    background: url(../img/title_tip.jpg) no-repeat center right;
+}
+
+.reg-title .title-txt {
+    width: 138px;
+    height: 46px;
+    line-height: 46px;
+    font-size: 16px;
+    color: #333;
+    border: 1px solid #f0f0f0;
+    border-bottom: 0px;
+    margin-left: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.register_box form {
+    width: 920px;
+    height: 340px;
+    padding-left: 220px;
+}
+
+form p {
+    margin-top: 25px;
+    height: 40px;
+    width: 700px;
+    position: relative;
+}
+
+.register_box form p label {
+    width: 70px;
+    height: 40px;
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    color: #999;
+}
+
+form p input {
+    width: 300px;
+    height: 40px;
+    float: left;
+    position: relative;
+}
+
+form p span {
+    display: inline-block;
+    width: 300px;
+    height: 44px;
+    line-height: 44px;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+form p:nth-of-type(2) span,
+form p:nth-of-type(3) span {
+    height: 24px;
+    line-height: 24px;
+}
+
+.register_box form p:nth-of-type(4) input {
+    width: 30px;
+    height: 30px;
+    float: left;
+    position: relative;
+}
+
+form .sem em {
+    display: inline-block;
+    position: absolute;
+    left: 105px;
+    top: 20px;
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    z-index: 20;
+}
+
+form p b {
+    margin-left: 5px;
+    color: #AEAEAE;
+    font-size: 14px;
+}
+
+form p:nth-of-type(5) input {
+    display: inline-block;
+    background: url(../img/icon.jpg) left -141px no-repeat;
+    height: 40px;
+    width: 304px;
+    border: none;
+}

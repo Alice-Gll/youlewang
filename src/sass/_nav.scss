@@ -1,0 +1,328 @@
+ // sass --watch index1.scss:index1.css
+ .main {
+     width: 100%;
+     height: 100%;
+     margin-top: -1px;
+ }
+ 
+ .main .nav-box {
+     width: 100%;
+     height: 470px;
+     margin: 0 auto;
+     // background-color: rgb(225, 45, 57);
+ }
+ 
+ .menu {
+     position: relative;
+     z-index: 3;
+     width: 1200px;
+     height: 470px;
+     margin: 0 auto;
+ }
+ 
+ .menu>ul {
+     position: absolute;
+     top: -10px;
+     left: 0;
+     overflow: hidden;
+     height: 470px;
+     // background-color: #fefefe;
+     background-color: white;
+     color: #636363;
+     margin-top: 10px;
+     width: 190px;
+     opacity: 0.9;
+     z-index: 110;
+ }
+ 
+ .menu>ul>li {
+     height: 36px;
+     line-height: 36px;
+     padding-left: 18px;
+     // background-color: yellow;
+ }
+ 
+ .menu>ul>li.active {
+     background-color: #ebebeb;
+ }
+ 
+ .menu>ul>li>a>i {
+     display: inline-block;
+     width: 16px;
+     height: 16px;
+     margin-right: 10px;
+     vertical-align: middle;
+     transition: all .5s linear;
+     overflow: hidden;
+     background: url(../img/sprite_category.png) no-repeat;
+ }
+ 
+ .menu li:nth-child(2) i {
+     background-position: -16px top;
+ }
+ 
+ .menu li:nth-child(3) i {
+     background-position: -32px top;
+ }
+ 
+ .menu li:nth-child(4) i {
+     background-position: -48px top;
+ }
+ 
+ .menu li:nth-child(5) i {
+     background-position: -64px top;
+ }
+ 
+ .menu li:nth-child(6) i {
+     background-position: -80px top;
+ }
+ 
+ .menu li:nth-child(7) i {
+     background-position: -96px top;
+ }
+ 
+ .menu li:nth-child(8) i {
+     background-position: -112px top;
+ }
+ 
+ .menu li:nth-child(9) i {
+     background-position: -128px top;
+ }
+ 
+ .menu li:nth-child(10) i {
+     background-position: -144px top;
+ }
+ 
+ .menu li:nth-child(11) i {
+     background-position: -160px top;
+ }
+ 
+ .menu li:nth-child(12) i {
+     background-position: -176px top;
+ }
+ 
+ .menu li:nth-child(13) i {
+     background-position: -192px top;
+ }
+ 
+ .menu>ul>li>a {
+     font-size: 14px;
+     color: #333;
+     text-decoration: none;
+ }
+ 
+ .menu>ul>li>span {
+     padding: 0 2px;
+     font-size: 12px;
+ }
+ 
+ .cartlist {
+     display: none;
+     position: absolute;
+     left: 190px;
+     top: 0;
+     width: 1010px;
+     min-height: 468px;
+     border: 1px solid #f7f7f7;
+     background-color: #fff;
+     box-shadow: 0px 2px 0px rgba(0, 0, 0, .3);
+     transition: top 0.3s ease;
+     z-index: 210;
+ }
+ 
+ .cartlist .item {
+     padding: 20px;
+     display: none;
+ }
+ 
+ .cartlist .item dl {
+     float: left;
+     width: 760px;
+     line-height: 22px;
+     overflow: hidden;
+     _zoom: 1;
+     padding-top: 6px;
+ }
+ 
+ .cartlist .item dl dt {
+     float: left;
+     overflow: hidden;
+     _zoom: 1;
+     width: 100px;
+     padding: 6px 10px;
+     font-family: Microsoft YaHei;
+     font-size: 14px;
+     font-weight: bold;
+ }
+ 
+ .cartlist .item dl dd {
+     height: auto;
+     overflow: hidden;
+     _zoom: 1;
+     font-family: 'Microsoft YaHei';
+     border-bottom: 1px solid #ebebeb;
+     padding: 6px 0;
+ }
+ 
+ .cartlist dl dd a {
+     color: #666;
+     white-space: nowrap;
+     margin-right: 20px;
+ }
+ 
+ .cartlist dl dd a:hover {
+     color: red;
+     text-decoration: underline;
+ }
+ 
+ .cartlist .item-ad {
+     position: absolute;
+     top: 0;
+     right: 0;
+     width: 240px;
+     height: 460px;
+     padding-top: 10px;
+     // background-color: chocolate;
+ }
+ 
+ .cartlist .item-ad img {
+     display: block;
+     float: left;
+     width: 100px;
+     height: 50px;
+     margin-bottom: 5px;
+     // margin-right: 10px;
+     margin-left: 15px;
+ }
+ 
+ .cartlist .item-ad img:nth-last-child(1) {
+     width: 220px;
+     height: 100px;
+ }
+ 
+ // 轮播图
+ .banner {
+     width: 1200px;
+     height: 470px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     cursor: pointer;
+     z-index: 101;
+ }
+ 
+ .banner ul li {
+     position: absolute;
+     left: 0px;
+     top: 0px;
+     opacity: 0;
+ }
+ 
+ .banner ul li:nth-of-type(1) {
+     opacity: 1;
+ }
+ 
+ .banner ol {
+     width: 260px;
+     height: 20px;
+     position: absolute;
+     left: 500px;
+     bottom: 20px;
+     // background-color: cornflowerblue;
+ }
+ 
+ .banner ol li {
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     background-color: #ccc;
+     float: left;
+     margin-right: 5px;
+     text-indent: -999em;
+     cursor: pointer;
+ }
+ 
+ .banner ol li.active {
+     background-color: rgb(226, 27, 24);
+ }
+ 
+ #leftarrow,
+ #rightarrow {
+     color: #fff;
+     font-size: 100px;
+     text-decoration: none;
+     position: absolute;
+     top: 50%;
+     margin-top: -60px;
+     opacity: 0;
+ }
+ 
+ #leftarrow {
+     left: 20px;
+ }
+ 
+ #rightarrow {
+     right: 20px;
+ }
+ 
+ .box {
+     width: 100px;
+     height: 100px;
+     background-color: red;
+     position: absolute;
+     left: 0;
+     top: 0;
+ }
+ 
+ // 背景颜色
+ .nav-box {
+     position: relative;
+ }
+ 
+ .nav-box>ul>li {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 470px;
+ }
+ 
+ .nav-box>ul>li:nth-child(1) {
+     background-color: rgb(225, 45, 57);
+ }
+ 
+ .nav-box>ul>li:nth-child(2) {
+     background-color: rgb(183, 26, 23);
+ }
+ 
+ .nav-box>ul>li:nth-child(3) {
+     background-color: rgb(215, 0, 0);
+ }
+ 
+ .nav-box>ul>li:nth-child(4) {
+     background-color: rgb(226, 27, 24);
+ }
+ 
+ .nav-box>ul>li:nth-child(5) {
+     background-color: rgb(226, 27, 24);
+ }
+ 
+ .nav-box>ul>li:nth-child(6) {
+     background-color: rgb(0, 149, 190);
+ }
+ 
+ .nav-box>ul>li:nth-child(7) {
+     background-color: rgb(174, 0, 1);
+ }
+ 
+ .nav-box>ul>li:nth-child(8) {
+     background-color: rgb(26, 76, 219);
+ }
+ 
+ .nav-box>ul>li:nth-child(9) {
+     background-color: rgb(212, 17, 202);
+ }
+ 
+ .nav-box>ul>li:nth-child(10) {
+     background-color: rgb(212, 17, 202);
+ }

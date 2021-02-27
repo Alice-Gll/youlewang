@@ -1,0 +1,255 @@
+.footer {
+    padding: 20px 0;
+    font-size: 12px;
+    background-color: #fff;
+    *zoom: 1;
+    clear: both;
+    min-width: 950px;
+}
+
+.footer .layout {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot-banner {
+    height: 56px;
+    border: solid 1px #ddd;
+    border-width: 1px 0;
+    padding: 17px 0;
+    background-position: 0 -35px;
+}
+
+.foot-banner a {
+    float: left;
+    height: 52px;
+    text-indent: -9999px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.foot-banner a.foot-banner-post {
+    width: 80px;
+}
+
+.foot-banner a.foot-banner-tom {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.foot-banner a.foot-banner-commitment {
+    width: 210px;
+    margin-left: 30px;
+}
+
+.foot-banner a.foot-banner-free {
+    width: 220px;
+    margin-left: 16px;
+}
+
+.foot-banner a.foot-banner-weibo {
+    width: 220px;
+    margin-left: 20px;
+    display: none;
+}
+
+.foot-banner span.foot-banner-weibo {
+    float: left;
+    width: 63px;
+    height: 24px;
+    padding: 17px 0 0 160px;
+    display: none;
+}
+
+.foot-helper {
+    padding: 10px 0 20px;
+    text-align: left;
+    overflow: hidden;
+    width: 100%;
+}
+
+.foot-helper ul {
+    width: 1200px;
+    height: 100%;
+    list-style: none;
+}
+
+.foot-helper ul li {
+    width: 120px;
+    padding: 5px 96px 0 0;
+    float: left;
+}
+
+.foot-helper .clearfix li:nth-child(6) {
+    padding: 0;
+}
+
+.foot-helper li h4 {
+    color: #666;
+    line-height: 22px;
+    margin: 0 0 5px;
+    border-bottom: dotted 1px #ccc;
+}
+
+.foot-helper li a {
+    display: block;
+    line-height: 22px;
+    color: #888;
+}
+
+.foot-helper li a strong {
+    background: #af0505;
+    color: #fff;
+    padding: 2px 5px 3px;
+}
+
+.foot-license {
+    line-height: 20px;
+    padding: 15px 0 5px;
+    text-align: center;
+    color: #999;
+    border-top: solid 1px #ddd;
+}
+
+.foot-license ul {
+    height: 20px;
+    overflow: hidden;
+}
+
+.foot-license li {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 9px;
+    font-family: "microsoft yahei";
+}
+
+.foot-copyright {
+    line-height: 20px;
+    color: #999;
+    font-family: verdana;
+}
+
+.foot-iconlink {
+    background-position: 0 0;
+    margin-top: 15px;
+    height: 34px;
+}
+
+.foot-iconlink a {
+    float: left;
+    width: 100px;
+    height: 34px;
+    margin-right: 5px;
+    text-indent: -10000px;
+    overflow: hidden;
+}
+
+.w1280 .foot-iconlink a {
+    width: 100px;
+    margin-right: 10px;
+}
+
+#friendshiplink {
+    border-top: 1px solid #ddd;
+    line-height: 22px;
+    padding: 5px 0;
+}
+
+.friendshiplink {
+    height: 22px;
+    overflow: hidden;
+    background: url(/ule/common/css/images/friendshiplink_ico.png) right 6px no-repeat;
+}
+
+.friendshiplink_on {
+    height: auto;
+    background-position: right -24px;
+}
+
+.friendshiplink a {
+    float: left;
+    width: 115px;
+    height: 25px;
+}
+
+.friendshiplink a:hover {
+    color: #c51010;
+}
+
+.footer {
+    min-width: 1200px;
+}
+
+.layout .foot-banner {
+    background-position: 0 -125px;
+}
+
+.foot-banner a {
+    float: left;
+    height: 52px;
+    text-indent: -9999px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.foot-banner a.foot-banner-post {
+    margin-left: 30px;
+    background: url(../img/footer1603.png) left -55px no-repeat;
+}
+
+.foot-banner a.foot-banner-tom {
+    margin-left: 0px;
+    width: 150px;
+    background: url(../img/footer1603.png) -80px -55px no-repeat;
+}
+
+.foot-banner a.foot-banner-commitment {
+    margin-left: 80px;
+    width: 240px;
+    background: url(../img/footer1603.png) -230px -55px no-repeat;
+}
+
+.foot-banner a.foot-banner-free {
+    margin-left: 105px;
+    width: 230px;
+    background: url(../img/footer1603.png) -470px -55px no-repeat;
+}
+
+.foot-iconlink a {
+    width: 100px;
+    height: 34px;
+    margin-right: 10px;
+}
+
+.foot-iconlink a:nth-child(1) {
+    background: url(../img/footer1603.png) left top no-repeat;
+}
+
+.foot-iconlink a:nth-child(2) {
+    background: url(../img/footer1603.png) -110px top no-repeat;
+}
+
+.foot-iconlink a:nth-child(3) {
+    background: url(../img/footer1603.png) -220px top no-repeat;
+}
+
+.foot-iconlink a:nth-child(4) {
+    background: url(../img/footer1603.png) -330px top no-repeat;
+}
+
+.foot-iconlink a:nth-child(5) {
+    background: url(../img/footer1603.png) -440px top no-repeat;
+}
+
+.foot-iconlink a:nth-child(6) {
+    background: url(../img/footer1603.png) -550px top no-repeat;
+}
+
+.foot-iconlink a:nth-child(7) {
+    background: url(../img/footer1603.png) -660px top no-repeat;
+}
+
+.foot-iconlink a:nth-child(8) {
+    background: url(../img/footer1603.png) -770px top no-repeat;
+}

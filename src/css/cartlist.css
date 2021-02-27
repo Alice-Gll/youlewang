@@ -1,0 +1,413 @@
+.main {
+    width: 100%;
+}
+
+.mainWrapper {
+    width: 950px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.mainWrapper-top {
+    height: 46px;
+    line-height: 46px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.mainWrapper-top b {
+    display: block;
+    width: 100px;
+    float: left;
+    font-size: 22px;
+}
+
+.mainWrapper-top i,
+.mainWrapper-top u {
+    display: block;
+    width: 30px;
+    float: left;
+    font-size: 24px;
+    text-align: center;
+}
+
+.mainWrapper-top i {
+    color: #c42e15;
+}
+
+.mainWrapper-top span {
+    display: block;
+    width: 140px;
+    float: right;
+    color: #06c;
+    /* background: url(../images/ico_myfavor.png) no-repeat left center; */
+}
+
+.bonus {
+    height: 24px;
+}
+
+.bonus span {
+    display: inline-block;
+    height: 24px;
+    width: 60px;
+    text-align: center;
+    background-color: #ddd;
+    margin-left: 20px;
+}
+
+.cart-head,
+.cart-head ul {
+    width: 100%;
+    height: 36px;
+    background-color: #f3f3f3;
+    margin-top: 10px;
+}
+
+.mainWrapper ul li {
+    height: 36px;
+    /* font-size: 12px; */
+    line-height: 36px;
+    list-style: none;
+    float: left;
+}
+
+.item-check {
+    width: 34px;
+    margin-left: 20px;
+}
+
+.mainWrapper ul .item-name {
+    width: 440px;
+}
+
+ul .item-price {
+    padding-left: 5px;
+    width: 125px;
+}
+
+ul .item-count {
+    padding-left: 20px;
+    width: 120px;
+}
+
+ul .item-total {
+    width: 120px;
+}
+
+ul .item-action {
+    width: 60px;
+}
+
+.cart-store {
+    width: 100%;
+    height: 100%;
+}
+
+.store-top {
+    height: 34px;
+}
+
+.store-top ul .store-link {
+    width: 158px;
+    height: 34px;
+    line-height: 34px;
+}
+
+ul .store-link a {
+    font-size: 14px;
+    color: #1475ba;
+}
+
+.store-items {
+    height: 110px;
+    height: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #666;
+}
+
+.store-items ul {
+    width: 100%;
+    height: 80px;
+}
+
+.store-items ul li {
+    float: left;
+    height: 80px;
+}
+
+.store-items ul .item-check {
+    width: 34px;
+}
+
+.item-img {
+    width: 80px;
+    /* background: url(https://pic.ulecdn.com/pic/user_800150208/product/prd20200819/0424fadf7f2a43fc_p800x800_m_m.jpeg); */
+}
+
+.item-img img {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}
+
+.cart-store .store-items .item-title {
+    padding-left: 5px;
+    width: 200px;
+    line-height: 20px;
+}
+
+.cart-store .store-items .item-attr {
+    width: 160px;
+    line-height: 20px;
+}
+
+.item-price {
+    width: 140px;
+    text-align: center;
+}
+
+.item-num {
+    padding-top: 10px;
+    width: 140px;
+    text-align: center;
+}
+
+.item-num button {
+    cursor: pointer;
+    display: block;
+    float: left;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #999;
+}
+
+.item-num input {
+    outline: none;
+    display: block;
+    width: 40px;
+    height: 23px;
+    cursor: pointer;
+    font-family: Arial;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 14px;
+    float: left;
+    margin-top: -0px;
+}
+
+.item-allprice {
+    width: 110px;
+}
+
+.item-action {
+    width: 60px;
+}
+
+.cart-foot {
+    width: 950px;
+    margin: 0 auto;
+    padding: 15px 0px 30px;
+    height: 34px;
+    line-height: 24px;
+    font-family: Tahoma, Arial, Verdana, Simsun;
+    font-size: 12px;
+}
+
+.cart-foot input {
+    margin-right: 5px;
+}
+
+.cart-foot a {
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 108px;
+    height: 22px;
+    list-style: 22px;
+    text-align: center;
+    font-family: Tahoma, Arial, Verdana, Simsun;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.main-operation {
+    height: 60px;
+    background-color: #f3f3f3;
+}
+
+.cart-total {
+    position: relative;
+    width: 950px;
+    height: 40px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.cart-total dl {
+    float: left;
+    line-height: 20px;
+}
+
+.cart-total dl dt,
+.cart-total dl dd {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.prod-count,
+.prod-price,
+.prod-discount {
+    width: 100px;
+}
+
+.prod-totalprices,
+.fr {
+    width: 242px;
+}
+
+.prod-totalprices dt,
+.prod-totalprices dd {
+    float: left;
+}
+
+.cart-total .prod-totalprices dd {
+    height: 40px;
+    width: 176px;
+    line-height: 40px;
+    margin-left: 5px;
+    color: #c42e15;
+    font-size: 30px;
+}
+
+.fr {
+    float: right;
+    text-align: center;
+}
+
+.fr a {
+    float: left;
+    width: 98px;
+    height: 38px;
+    line-height: 38px;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "microsoft yahei";
+    background-color: #fff;
+    border: solid 1px #bbb;
+    border-radius: 4px;
+}
+
+.fr a:nth-child(1) {
+    color: #666;
+}
+
+.fr a:nth-child(2) {
+    color: white;
+    background-color: tomato;
+}
+
+
+/* 删除提示 */
+
+.passones {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ddd;
+    opacity: 0.5;
+    z-index: 10;
+    display: none;
+}
+
+.passone {
+    width: 352px;
+    height: 152px;
+    position: fixed;
+    top: 260px;
+    left: 50%;
+    margin-left: -176px;
+    z-index: 100;
+    display: none;
+}
+
+.passone .pass-top {
+    background-color: #BB282B;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.passone .pass-top p {
+    float: left;
+    width: 65px;
+    height: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+.passone .pass-top span {
+    display: block;
+    float: right;
+    width: 60px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* 
+.passone .pass-top span i {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    line-height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    color: gray;
+    margin-top: 10px;
+} */
+
+.passone .pass-main {
+    background-color: #fff;
+    color: #666;
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    overflow: hidden;
+}
+
+.passone .pass-main h3 {
+    width: 352px;
+    height: 80px;
+    font-size: 16px;
+    line-height: 80px;
+    text-align: center;
+}
+
+.passone .pass-bot {
+    height: 25px;
+    padding: 10px 20px;
+    overflow: hidden;
+    background-color: #bbb;
+}
+
+.passone .pass-bot button {
+    display: block;
+    float: right;
+    width: 50px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.passone .pass-bot .confirm {
+    background-color: coral;
+}

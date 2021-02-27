@@ -1,0 +1,382 @@
+ .advertnav {
+     width: 1200px;
+     height: 100px;
+     margin: 0 auto;
+     background: url(https://pic3.ulecdn.com/item/user_0102/desc20200316/77ad229e91405ba7_-1x-1.jpg);
+     margin-top: 20px;
+ }
+ 
+ .advertnav-food,
+ .advertnav-gear,
+ .advertnav-life {
+     width: 1200px;
+     height: 592px;
+     margin: 0 auto;
+ }
+ 
+ .advertnav-gear .food-top b {
+     background: #1bb145;
+ }
+ 
+ .advertnav-gear .food-top h3 {
+     color: #1bb145;
+ }
+ 
+ .advertnav-gear .food-top h5 a:nth-child(1):hover {
+     color: #1bb145;
+ }
+ 
+ .advertnav-gear .food-mid .mid-left {
+     background: url(https://pic0.ulecdn.com/item/user_0102/desc20201102/0045a4b6d7fb4092_-1x-1.jpg);
+ }
+ 
+ .advertnav-life .food-top b {
+     background: #2289ff;
+ }
+ 
+ .advertnav-life .food-top h3 {
+     color: #2289ff;
+ }
+ 
+ .advertnav-life .food-top h5 a:nth-child(1):hover {
+     color: #2289ff;
+ }
+ 
+ .advertnav-life .food-mid .mid-left {
+     background: url(https://pic4.ulecdn.com/item/user_0102/desc20201103/e314ad5895bd5df4_-1x-1.jpg);
+ }
+ 
+ .food-top {
+     height: 42px;
+     // background-color: green;
+     margin-top: 10px;
+     b {
+         display: block;
+         width: 5px;
+         height: 25px;
+         margin-top: 3px;
+         background: #ff7b30;
+         float: left;
+     }
+     h3 {
+         float: left;
+         margin: 0px 10px 0 15px;
+         font-size: 22px;
+         font-weight: bolder;
+         color: #ff7b30;
+     }
+     h4 {
+         float: left;
+         margin-top: 12px;
+         line-height: 16px;
+         a {
+             margin-left: 10px;
+             color: #99999b;
+             font-size: 14px;
+         }
+     }
+     h5 {
+         float: right;
+         margin-top: 12px;
+         line-height: 16px;
+         a {
+             margin-left: 10px;
+             color: #333;
+             font-size: 14px;
+         }
+     }
+ }
+ 
+ .food-mid {
+     height: 550px;
+     .mid-left {
+         float: left;
+         width: 270px;
+         height: 100%;
+         background-image: url(https://pic2.ulecdn.com/item/user_0102/desc20201102/04fdf747fca4338b_-1x-1.jpg);
+     }
+     .mid-mid {
+         float: left;
+         width: 930px;
+         height: 100%;
+         // background-color: #ff7b30;
+     }
+ }
+ 
+ .food-top h4 a:hover {
+     color: red;
+ }
+ 
+ .food-top h5 a:nth-child(2) {
+     display: inline-block;
+     text-align: center;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     border: 1px solid #99999b;
+ }
+ 
+ .food-top h5 a:nth-child(1):hover {
+     color: #ff7b30;
+ }
+ 
+ // 商品渲染
+ .mid-mid {
+     overflow: hidden;
+ }
+ 
+ .mid-mid ul {
+     overflow: hidden;
+ }
+ 
+ .mid-mid li {
+     padding: 10px;
+     width: 202px;
+     height: 250px;
+     margin-left: 10px;
+     margin-bottom: 10px;
+     background: #fff;
+     float: left;
+     position: relative;
+ }
+ 
+ .mid-mid li:hover {
+     top: -2px;
+     box-shadow: 0px 4px 4px 2px #eee;
+ }
+ 
+ .mid-mid li img {
+     width: 200px;
+     height: 200px;
+     display: block;
+ }
+ 
+ .mid-mid li p {
+     cursor: pointer;
+     font-size: 14px;
+     display: block;
+     color: #333;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     margin-top: 10px;
+ }
+ 
+ .mid-mid li span {
+     margin-top: 5px;
+     text-align: center;
+     display: block;
+     font-family: arial;
+     font-weight: 400;
+     color: #c52e13;
+     font-size: 18px;
+ }
+ 
+ //  楼梯效果
+ .stairs {
+     width: 32px;
+     position: fixed;
+     left: 110px;
+     bottom: 40px;
+     display: none;
+ }
+ 
+ .stairs ul li {
+     position: relative;
+     cursor: pointer;
+     padding: 10px 0;
+     width: 32px;
+     height: 32px;
+     text-align: center;
+     border-bottom: dotted 1px #ccc;
+     padding: 10px 0;
+ }
+ 
+ .stairs ul .last {
+     background: url(https://i0.ulecdn.com/ule/www/hp/2014/0710/images/returntop2.png) 5px 10px no-repeat;
+     border-bottom: none;
+ }
+ 
+ .stairs ul li:nth-child(1) span:hover {
+     background-color: #ff7b30;
+ }
+ 
+ .stairs ul li:nth-child(2) span:hover {
+     background-color: #1bb145;
+ }
+ 
+ .stairs ul li:nth-child(3) span:hover {
+     background-color: #2289ff;
+ }
+ 
+ .stairs ul li span {
+     padding-top: 2px;
+     margin-top: 10px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     line-height: 14px;
+     height: 31px;
+     color: #999;
+     font-family: verdana;
+     background-color: #f3f4f6;
+     border-radius: 4px;
+ }
+ 
+ .stairs ul li.lisbg span {
+     background-color: #ff7b30;
+     color: #fff;
+     display: block;
+ }
+ 
+ .stairs ul li:hover span {
+     background: #c00;
+     color: #fff;
+     display: block;
+ }
+ 
+ //  侧边栏
+ .sidebar {
+     width: 40px;
+     height: 100%;
+     background-color: #6c6c6c;
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     z-index: 1000;
+ }
+ 
+ .sidebar-top {
+     position: absolute;
+     top: 40px;
+     z-index: 1;
+ }
+ 
+ .side-shop {
+     width: 40px;
+     height: 60px;
+     .side-shop-tu {
+         width: 100%;
+         height: 100%;
+         position: relative;
+         i {
+             margin-top: 18px;
+             margin-left: 8px;
+             display: inline-block;
+             width: 24px;
+             height: 24px;
+             background: url(../img/ico_tabs.png) 0px -84px no-repeat;
+             color: #fff;
+         }
+         .side-shop-sort {
+             display: none;
+             position: absolute;
+             z-index: 1;
+             top: 0;
+             right: 40px;
+             width: 100px;
+             height: 60px;
+             line-height: 60px;
+             text-align: center;
+             font-family: "microsoft yahei";
+             font-size: 16px;
+             color: #ffffff;
+             background-color: #6c6c6c;
+             background-position: 8px 0;
+             cursor: pointer;
+             transition: all 2s ease;
+         }
+     }
+ }
+ 
+ .side-code {
+     width: 40px;
+     height: 60px;
+     .side-code-er {
+         width: 100%;
+         height: 100%;
+         position: relative;
+         i {
+             margin-top: 18px;
+             margin-left: 8px;
+             display: inline-block;
+             width: 24px;
+             height: 24px;
+             background: url(../img/ico_tabs.png) 0px -108px no-repeat;
+             color: #fff;
+         }
+         .side-code-weima {
+             display: none;
+             position: absolute;
+             z-index: 1;
+             top: 0px;
+             right: 40px;
+             width: 150px;
+             height: 150px;
+             background: url(../img/uleapp.jpg);
+             cursor: pointer;
+             transition: all 2s ease;
+         }
+     }
+ }
+ 
+ .side-shop-tu:hover .side-shop-sort {
+     display: block;
+ }
+ 
+ .side-code-er:hover .side-code-weima {
+     display: block;
+ }
+ 
+ .sidebar-mid {
+     position: absolute;
+     top: 200px;
+     z-index: 1;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(1) .side-shop-tu i {
+     background: url(../img/ico_tabs.png) 0px -132px no-repeat;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(1) .side-shop-tu:hover .side-shop-sort {
+     display: block;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(2) .side-shop-tu i {
+     background: url(../img/ico_tabs.png) 0px -156px no-repeat;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(2) .side-shop-tu:hover .side-shop-sort {
+     display: block;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(3) .side-shop-tu i {
+     background: url(../img/ico_tabs.png) 0px -180px no-repeat;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(3) .side-shop-tu:hover .side-shop-sort {
+     display: block;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(4) .side-shop-tu i {
+     background: url(../img/ico_tabs.png) 0px -204px no-repeat;
+ }
+ 
+ .sidebar-mid .side-shop:nth-child(4) .side-shop-tu:hover .side-shop-sort {
+     display: block;
+ }
+ 
+ .returntop {
+     position: absolute;
+     bottom: 20px;
+     z-index: 1;
+ }
+ 
+ .returntop .side-shop .side-shop-tu i {
+     background: url(../img/ico_tabs.png) 0px -274px no-repeat;
+ }
+ 
+ .returntop .side-shop .side-shop-tu:hover .side-shop-sort {
+     display: block;
+ }

@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/cartlist.css">
+    <script src="script/cartlist_module.js" type="module"></script>
+</head>
+
+<body>
+    <div class="header" style="height: 150px; border-bottom: solid 4px #a71b1c;">
+        <div class="head-top-heart">
+            <div class="head-top">
+                <div class="head-top-left">
+                    <a href="javascript:;">邮乐首页</a>
+                    <div class="left-list">
+                        <span>杭州</span>
+                        <dl>
+                            <dt>
+                                <p>所有</p>
+                                <u>北京</u>
+                                <u>上海</u>
+                                <u>广州</u>
+                                <u>深圳</u>
+                            </dt>
+                            <dd>
+                                <u>杭州</u>
+                                <u>天津</u>
+                                <u>武汉</u>
+                                <u>郑州</u>
+                                <u>丽江</u>
+                                <u>泰山</u>
+                                <u>西藏</u>
+                                <u>厦门</u>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="head-top-right">
+                    <ul>
+                        <li class="spans"> <span></span></li>
+                        <li class="welcom"> <u>你好，欢迎来到邮乐网！</u></li>
+                        <li>
+                            <div class="admin" style="display: none;">
+                                <a href="javascript:;">退出</a>
+                            </div>
+                        </li>
+                        <li> <a href="login.html"><em>[请登录]</em></a></li>
+                        <li> <a href="registry.html"><em>[免费注册]</em></a></li>
+                        <li class="myul">
+                            <a href="javascript:;">我的邮乐</a>
+                            <ul>
+                                <li>我的订单</li>
+                                <li>我的收藏</li>
+                                <li>我的消息</li>
+                            </ul>
+                        </li>
+                        <li class="myul">
+                            <a href="javascript:;">手机邮乐</a>
+                            <div class="phone-img"></div>
+                        </li>
+                        <li class="allshop">
+                            <u></u>
+                            <a href="javascript:;">全部商品分类</a>
+                            <b></b>
+                        </li>
+                        <li>
+                            <a href="javascript:;">网站地图</a>
+                        </li>
+                        <li class="help">
+                            <a href="javascript:;">帮助中心</a>
+                            <ul>
+                                <li>购物指南</li>
+                                <li>支付帮助</li>
+                                <li>配送方式</li>
+                                <li>售后服务</li>
+                                <li>关于邮乐</li>
+                            </ul>
+                        </li>
+                        <li class="tels">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="head-main">
+            <div class="logo" style="float: left;">
+                <a href="index1.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+
+            <div class="head-cart step0">
+                <p class="step_img"></p>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="mainWrapper">
+            <!-- 主内容头部 -->
+            <div class="mainWrapper-top">
+                <b>邮乐商品</b>
+                <u>(</u>
+                <i></i>
+                <u>)</u>
+                <span>我的收藏夹</span>
+            </div>
+            <div class="bonus">
+                <span>￥奖金</span>
+            </div>
+            <!-- 商品标题 -->
+            <div class="cart-head">
+                <ul>
+                    <li class="item-check"><input type="checkbox" checked="checked" class="chk-all chk-alls all-check"></li>
+                    <li class="item-name">商品信息</li>
+                    <li class="item-price">单价</li>
+                    <li class="item-count">商品数量</li>
+                    <li class="item-total">价格合计</li>
+                    <li class="item-action">操作</li>
+                </ul>
+            </div>
+            <!-- 商品内容 -->
+            <div class="cart-store" style="display: none;">
+                <!-- 店家店名 -->
+                <div class="store-top">
+                    <ul>
+                        <li class="item-check"><input type="checkbox" checked="checked" class="chk-all chk-top"></li>
+                        <li class="store-link">
+                            <a href="javascript:;">名生世家生活用品专营店</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 商品列表 -->
+                <div class="store-items">
+                    <ul>
+                        <li class="item-check"><input type="checkbox" checked="checked" class="chk-all chk-top"></li>
+                        <li class="item-img"><img src="" alt=""></li>
+                        <li class="item-title"></li>
+                        <li class="item-attr">颜色：实惠装<br>规格：三斤净重(单果150g起)果园直供</li>
+                        <li class="item-price">￥39.98</li>
+                        <li class="item-num">
+                            <button class="btn-down">-</button>
+                            <input type="text" value="1" />
+                            <button class="btn-up">+</button>
+                        </li>
+                        <li class="item-allprice">￥39.98</li>
+                        <li class="item-action">
+                            <button>收藏</button>
+                            <button class="pass">删除</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 商品底部操作 -->
+        <div class="cart-foot">
+            <span class="item-check"><input type="checkbox" checked="checked"  class="chk-all chk-alls">全选</span>
+            <a data-uspm="delsel" class="btn-delsel">批量删除</a>
+            <a data-uspm="clear" class="btn-clear">清空购物车</a>
+        </div>
+        <!-- 商品总览操作 -->
+        <div class="main-operation">
+            <div class="cart-total">
+                <dl class="prod-count">
+                    <dt>商品数量：</dt>
+                    <dd><strong></strong>件</dd>
+                </dl>
+                <dl class="prod-price">
+                    <dt>价格合计：</dt>
+                    <dd><strong>¥<em></em></strong></dd>
+                </dl>
+                <dl class="prod-discount">
+                    <dt>促销抵扣</dt>
+                    <dd>- <strong>¥<em>0.00</em></strong></dd>
+                </dl>
+                <dl class="prod-totalprices">
+                    <dt>商品总价：<br><span>不含运费</span></dt>
+                    <dd>¥<em></em></dd>
+                </dl>
+                <p class="fr">
+                    <a data-uspm="continue" href="index1.html" class="btn-continue">继续购物</a>
+
+                    <a data-uspm="order" href="login.html" class="btn-ordernow">去结账</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="layout">
+            <div class="foot-banner" data-uspm="131">
+                <a data-uspm="no" class="foot-banner-post" href="http://www.chinapost.com.cn/" target="_blank" title="中国邮政">中国邮政</a>
+                <a data-uspm="no" class="foot-banner-tom" href="http://www.tom.com/" target="_blank" title="TOM">TOM</a>
+                <a class="foot-banner-commitment" href="//www.ule.com/help/real.html" target="_blank" title="品质保障 优选邮乐">品质保障优选邮乐</a>
+                <a class="foot-banner-free" href="//help.ule.com/helpcenter/64/4.html" target="_blank" title="覆盖城乡 安全速达">覆盖城乡 安全速达</a>
+            </div>
+
+            <div class="foot-helper">
+                <ul class="clearfix">
+                    <li class="i1">
+                        <h4>购物指南</h4>
+                        <p data-uspm="141"><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/61/1.html">购物流程</a>
+                            <a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/89/29.html">使用优惠券</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/83/23.html">积分规则</a><a target="_blank" rel="nofollow" href="https://my.ule.com/usr/forgetUserInfor.do">如何找回密码</a>
+                            <a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/88/28.html">订单多包裹配送</a><a target="_blank" href="//www.ule.com/hsk/ALL-1.html">热搜词榜</a><a target="_blank" href="//help.ule.com/helpcenter/101/429.html" title="在线客服（邮乐通）">在线客服（邮乐通）</a>
+                            <a target="_blank" href="//www.ule.com/brand/A-1.html">品牌大全</a>
+
+
+                        </p>
+                    </li>
+                    <li class="i2">
+                        <h4>支付帮助</h4>
+                        <p data-uspm="142"><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/90/30.html">邮乐卡支付</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/86/26.html">网上银行支付</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/1259/1561.html">账户余额支付</a>
+                            <a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/1260/1562.html">聚合支付</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/67/7.html">发票说明</a></p>
+                    </li>
+                    <li class="i3">
+                        <h4>配送方式</h4>
+                        <p data-uspm="143"><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/74/14.html">海外购物配送</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/65/5.html">签收拒收规则</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/64/4.html">配送时间/范围/运费</a></p>
+                    </li>
+                    <li class="i4">
+                        <h4>售后服务</h4>
+                        <p data-uspm="144"><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/66/20.html">退换货规则</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/87/27.html">退款说明</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/68/8.html">联系客服</a>
+                            <a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/102/42.html">退换货流程</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/103/43.html">退换货运费补偿标准</a>
+                            <!--<a target="_blank" rel="nofollow" href="//my.ule.com/returnorders/login.jsp">线下购物订单服务</a>--><a target="_blank" rel="nofollow" style="display: none;" href="//my.ule.com/myShoppingOrderWeb/buyerOrderView.do">纠纷申诉</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/105/45.html">纠纷申诉处理规则说明</a></p>
+                    </li>
+                    <li class="i5">
+                        <h4>特色服务</h4>
+                        <p data-uspm="145"><a target="_blank" href="//yzg.ule.com">邮掌柜</a>
+                            <!--<a target="_blank" href="//www.ule.com/tg/">大客户团购</a>--><a target="_blank" href="//help.ule.com/helpcenter/75/15.html">邮乐海外站</a><a target="_blank" href="//help.ule.com/helpcenter/85/25.html">手机充值</a></p>
+                    </li>
+                    <li class="i6">
+                        <h4>关于邮乐</h4>
+                        <p data-uspm="146"><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/70/10.html">邮乐简介</a> <a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/72/12.html">邮乐招商</a> <a target="_blank" rel="nofollow" href="http://merchant.ule.com/merJoinInPersonal/login/entry.do">商家入驻</a>
+                            <a target="_blank" rel="nofollow" href="//merchant.ule.com">商家中心</a> <a target="_blank" href="//search.ule.com/link.html">友情链接</a><a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/62/16.html">用户协议</a>
+                            <a target="_blank" rel="nofollow" href="//help.ule.com/helpcenter/63/3.html">隐私权保护</a>
+                            <a target="_blank" href="//www.ule.com/zone/sitemap.html">网站地图</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="foot-license">
+                <ul>
+                    <!--<li class="first">出版物经营许可证编号：沪零字第L6687号</li>-->
+                    <li>酒类商品零售许可证：浦市监酒零字 第 JY13101150070309-JL 号</li>
+                    <li>食品经营许可证：JY13101150070309</li>
+                    <li>统一社会信用代码：913100006916203638</li>
+                </ul>
+            </div>
+
+            <div class="foot-copyright">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502009005" target="_blank" style="color:#999">沪公网安备 31011502009005号</a>
+                <span class="sep">|</span>
+                <a href="https://beian.miit.gov.cn" target="_blank" style="color:#999">沪ICP备 13037728号-1</a>
+                <span class="sep">|</span> (沪)网械平台备字[2020]第00009号
+                <span class="sep">|</span> Copyright 2009-2021, 版权所有上海邮乐网络技术有限公司 ULE.COM
+            </div>
+
+            <div class="foot-iconlink clearfix" data-uspm="151">
+                <a data-uspm="no" href="http://www.chinapost.com.cn/" target="_blank" title="中国邮政"><b>中国邮政</b></a>
+                <a data-uspm="no" href="http://www.tom.com/" target="_blank" title="TOM"><b>TOM</b></a>
+                <!--<a data-uspm="no" rel="nofollow" href="https://ss.knet.cn/verifyseal.dll?sn=2010110500100002794&ct=df&a=1&pa=0.07429198059253395" target="_blank" title="可信网站身份验证"><b>可信网站</b></a> -->
+                <a data-uspm="no" href="http://www.ems.com.cn/" target="_blank" title="EMS"><b>EMS</b></a>
+                <a data-uspm="no" href="//www.psbc.com/" target="_blank" title="中国邮政储蓄银行"><b>中国邮政储蓄银行</b></a>
+                <a data-uspm="no" rel="nofollow" href="http://net.china.cn/" target="_blank"><b>不良信息举报中心</b></a>
+                <a style="cursor:default"><b>上海网警网络110</b></a>
+                <a data-uspm="no" rel="nofollow" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=2016022414024626" target="_blank"><b>上海工商</b></a>
+                <a data-uspm="no" rel="nofollow" href="https://credit.szfw.org/CX20160129013585370170.html" target="_blank"><b>诚信网站</b></a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="passones">
+    </div>
+    <div class="passone">
+        <div class="pass-top">
+            <p>确认提示</p>
+            <span class="close">关闭 <i>X</i></span>
+        </div>
+        <div class="pass-main">
+            <h3>你确定要从购物车里删除该商品？</h3>
+        </div>
+        <div class="pass-bot">
+            <button class="cancel">取消</button>
+            <button class="confirm">确认</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
